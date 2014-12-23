@@ -5,6 +5,7 @@
  * No copyright, you can modified it freely
  * And it's better to tell me your changes
  * 注释有不规范之处，还请谅解
+ * 注：在Visual C++ 6.0下运行出错；在VS2013下Debug模式有时会报错，在Release模式下未发现运行时报错
  */
 #include <iostream>
 #include <fstream>
