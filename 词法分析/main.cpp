@@ -35,6 +35,8 @@ using namespace std;
 #define	LPAREN		19		// 左括号 (
 #define RPAREN		20		// 右括号 )
 
+#define WORDLEN		50		// 单词的长度
+
 /*
  * 二元组表示：(单词种别，单词自身的值)
  * 约定如下：
@@ -45,7 +47,7 @@ using namespace std;
  */
 
 int row = 1;					// 用来表示行号
-char token[50];					// 用来依次存放一个单词词文中的各个字符
+char token[WORDLEN];				// 用来依次存放一个单词词文中的各个字符
 map<string, int> keywords;			// 关键字表，在初始化函数中初始化
 
 /*
