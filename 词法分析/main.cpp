@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 简单词法分析器
  * 作者：Coffee Cat
  * 时间：2014-11-23
@@ -99,7 +99,7 @@ void report_error(string reason = "")
 }
 
 /*
- * 函数 void outToFile(int num, const char * val)
+ * 函数 void outToStdout(int num, const char * val)
  * 参数：num  为相应单词的类别码或其助记符
  * 参数：val  当所识别的单词为标识符和整数时，为token（即词文分别为字母数字串和数字串），对于其余种类的单词，均为空串
  * 作用：输出一个单词的内部表示至控制台标准输出
