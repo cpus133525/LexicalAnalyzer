@@ -13,11 +13,11 @@
 #include <map>
 using namespace std;
 
-#define	BEGIN	1		// 关键字 begin
+#define	BEGIN		1		// 关键字 begin
 #define	END		2		// 关键字 end
 #define	IF		3		// 关键字 if
-#define	THEN	4		// 关键字 then
-#define	ELSE	5		// 关键字 else
+#define	THEN		4		// 关键字 then
+#define	ELSE		5		// 关键字 else
 #define	ID		6		// 标识符
 #define	INT		7		// 整型常数
 #define	LT		8		// 关系运算符 <
@@ -31,8 +31,8 @@ using namespace std;
 #define	MI		16		// 算术运算符 -
 #define	MU		17		// 算术运算符 *
 #define	DI		18		// 算术运算符 /
-#define	LPAREN	19		// 左括号 (
-#define RPAREN	20		// 右括号 )
+#define	LPAREN		19		// 左括号 (
+#define RPAREN		20		// 右括号 )
 
 /*
  * 二元组表示：(单词种别，单词自身的值)
@@ -43,8 +43,8 @@ using namespace std;
  * 注：暂时只支持整数
  */
 
-int row = 1;						// 用来表示行号
-char token[20];						// 用来依次存放一个单词词文中的各个字符
+int row = 1;					// 用来表示行号
+char token[50];					// 用来依次存放一个单词词文中的各个字符
 map<string, int> keywords;			// 关键字表，在初始化函数中初始化
 
 /*
