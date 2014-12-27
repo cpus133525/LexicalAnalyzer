@@ -88,3 +88,4 @@ dlldata.c
 *.pidb
 *.svclog
 *.scc
+*.sdf
